@@ -1081,11 +1081,11 @@ input::selection {
 }
 
 .post-1 {
-  background-image: url(/assets/graphics/blog/blog-post-1.png);
+  background-image: url(../graphics/blog/blog-post-1.png);
 }
 
 .post-2 {
-  background-image: url(/assets/graphics/blog/blog-post-2.png);
+  background-image: url(../graphics/blog/blog-post-2.png);
 }
 
 .blog__detial {
