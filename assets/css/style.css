@@ -779,7 +779,7 @@ input::selection {
 }
 
 .offer__two {
-  background-image: url(../assets/graphics/offer/offer-2-img.png);
+  background-image: url(../graphics/offer/offer-2-img.png);
 }
 
 .offer__two h2 {
@@ -946,7 +946,7 @@ input::selection {
 /* ############################################ */
 #testimonial {
   position: relative;
-  background-image: url(../assets/graphics/Testimonial/Testimonial-bg.png);
+  background-image: url(../graphics/Testimonial/Testimonial-bg.png);
   background-size: cover;
 }
 @media (max-width: 450px) {
