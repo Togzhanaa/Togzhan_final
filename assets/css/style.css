@@ -626,7 +626,7 @@ input::selection {
 }
 
 .hero {
-  background-image: url("../assets/graphics/hero/Banner.jpg");
+  background-image: url("../graphics/hero/Banner.jpg");
   width: 100%;
   background-size: cover;
   background-position: 110px;
