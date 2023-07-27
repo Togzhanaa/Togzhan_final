@@ -442,17 +442,90 @@ button
         <button id="orderBtn" style="display: none;" type="submit" class="subscribe__btn xd__btn btn-secondary"><a href="./thanks.html">Order</a></button>
       </div>
 </div>
+ <!-- ######################################### -->
+    <!--                 SUBSCRIBE                 -->
+    <!-- ######################################### -->
+    <section id="subscribe" class="wrp">
+        <div class="subscribe flx">
+          <h2>Subscribe to
+            our Newsletter
+          </h2>
+  
+          <form action="" class="flx">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="yourmail@gmail.com">
+            <a href="#" type="submit" class="subscribe__btn xd__btn btn-secondary">subscribe</a>
+          </form>
+        </div>
+      </section>
+  <!-- ######################################### -->
+  <!--                  FOOTER                   -->
+  <!-- ######################################### -->
+  <section>
+    <footer id="footer">
+      <div class="footer__grid wrp">
+        <!-- --------------- Column 1 ---------------- -->
+        <div class="footer__col-1">
+          <p class="footer__col-title p-bold">Contact Us</p>
+          <div>
+            <p class="p-bold">Email</p>
+            <p>needhelp@Organia.com</p>
+          </div>
+          <div>
+            <p class="p-bold">Phone</p>
+            <p>666 888 888</p>
+          </div>
+          <div>
+          <p class="p-bold"> Address</p>
+            <p>88 road, borklyn street, USA</p>
+          </div>
+        </div>
+        <!-- --------------- Column 2 ---------------- -->
+        <div class="footer__col-2">
+          <img src="./assets/graphics/header/main-logo.png" alt="">
+          <p>Simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum simply dummy text of the printing </p>
+          <div class="footer__soical">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
 
+          </div>
+        </div>
+        <!-- --------------- Column 3 ---------------- -->
+        <div class="footer__col-3">
+          <p class="footer__col-title p-bold">Utility Pages</p>
 
+          <nav>
+            <ul>
 
+              <a href="">
+                <li>Changelog</li>
+              </a>
 
+              <a href="">
+                <li>Style Guide</li>
+              </a>
 
+              <a href="">
+                <li>404 Not Found</li>
+              </a>
 
+              <a href="">
+                <li>Password Protected </li>
+              </a>
 
-
-
-
-
+              <a href="">
+                <li>Licences</li>
+              </a>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </section>
 </body>
 <!-- ------------ Custom Js ------------- -->
 <script src="./assets/js/script.js"></script>
@@ -479,22 +552,6 @@ button
     splide.mount();
 
 
-</script>
-
-
-<!-- ######################################### -->
-<!--                  JQUERY                   -->
-<!-- ######################################### -->
-<!-- this will target the footer by Id #footer -->
-<div id="footer"></div>
-<!-- jquery to trigger the Id #footer -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- jquery script to make it trigger the header & footer -->
-<script>
-    $(function () {
-        $("#header").load("/partials/header.html");
-        $("#footer").load("/partials/footer.html");
-    });
 </script>
 <script>
     // Get references to the elements
