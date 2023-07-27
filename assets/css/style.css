@@ -946,7 +946,7 @@ input::selection {
 /* ############################################ */
 #testimonial {
   position: relative;
-  background-image: url(../graphics/Testimonial/Testimonial-bg.png);
+  background-image: url("../graphics/Testimonial/Testimonial-bg.png");
   background-size: cover;
 }
 @media (max-width: 450px) {
