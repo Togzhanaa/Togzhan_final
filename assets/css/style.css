@@ -411,7 +411,7 @@ p {
 }
 
 .subscribe {
-  background-image: url(/assets/graphics/subscribe/subscribe-bg.png);
+  background-image: url("../graphics/subscribe/subscribe-bg.png");
   background-repeat: no-repeat;
   border-radius: 16px;
   flex-wrap: wrap;
@@ -1081,11 +1081,11 @@ input::selection {
 }
 
 .post-1 {
-  background-image: url(../graphics/blog/blog-post-1.png);
+  background-image: url("../graphics/blog/blog-post-1.png");
 }
 
 .post-2 {
-  background-image: url(../graphics/blog/blog-post-2.png);
+  background-image: url("../graphics/blog/blog-post-2.png");
 }
 
 .blog__detial {
@@ -1122,7 +1122,7 @@ input::selection {
 /*                     ABOUT                    */
 /* ############################################ */
 .about__banner {
-  background-image: url(../graphics/about-page/about-banner-bg.png);
+  background-image: url("../graphics/about-page/about-banner-bg.png");
 }
 
 .about__grid {
@@ -1325,7 +1325,7 @@ input::selection {
 }
 
 .blog__banner {
-  background-image: url(/assets/graphics/Blog-page/Banner.png);
+  background-image: url("../graphics/Blog-page/Banner.png");
 }
 
 .blog__content.blog__page-content {
